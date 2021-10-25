@@ -14,7 +14,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestControllerAdvice
-public class GeneralExceptionAdviser extends ResponseEntityExceptionHandler {
+public class GeneralExceptionAdvisor extends ResponseEntityExceptionHandler {
 
     @NotNull
     @Override
